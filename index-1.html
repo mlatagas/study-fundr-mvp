@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    @media(max-width: 500px) {
+      .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+      }
+    }
+
+    .titled {
+      font-family: 'Merriweather', serif !important;
+      font-size: 58px !important;
+      font-weight: 400 !important;
+      line-height: 64px !important;
+    }
+
+    .subtitled {
+      font-family: 'Merriweather', serif !important;
+      font-size: 22px !important;
+      font-weight: 400 !important;
+      line-height: 36px !important;
+    }
+  </style>
+</head>
+
+<body>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="./img/studyfundr-logo-redesign.png" >
+    </a>
+  </div>
+
+  <div class="navbar-menu">
+    <div class="navbar-end">
+
+      <a class="navbar-item">
+        Login
+      </a>
+
+      <a class="navbar-item">
+        Sign Up
+      </a>
+
+      <a class="navbar-item">
+        About
+      </a>
+
+      <a class="navbar-item">
+        Contact Us
+      </a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero is-white is-halfheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns  is-vcentered reverse-columns">
+        <div class="column
+          is-10-mobile
+          is-10-tablet
+          is-5-desktop
+          is-5-widescreen
+          is-5-fullhd " data-aos="fade-down">
+          <h1 class="title titled is-1 mb-6">
+            Connecting Students to Businesses for bursary opportunities.
+          </h1>
+          <div class="buttons">
+            <button class="button is-medium is-warning">Start your funding journey.</button>
+          </div>
+        </div>
+        <div data-aos="fade-right" class="column
+          is-10-mobile
+          is-10-tablet
+          is-4-desktop
+          is-7-widescreen
+          is-4-fullhd is-offset-1-fullhd">
+          <figure class="image is-square">
+            <img src="./img/vector/undraw_education_f8ru.svg">
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section m-0 p-0 mb-6">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-9 is-offset-1 has-text-centered">
+        <hr>
+        <h3 class="is-size-3 has-text-weight-bold mb-3">How it works?</h3>
+
+        <div class="columns">
+          <div class="column">
+            <h4 class="is-size-3 has-text-weight-bold">1</h4>
+            <p class="mb-3 has-text-weight-bold">Sign Up</p>
+            <p>Create a profile here <strong><a href="/sign-up"" target="_blank">Sign Up</a></strong>.</p>
+          </div>
+          <div class="column">
+            <h4 class="is-size-3 has-text-weight-bold">2</h4>
+            <p class="mb-3 has-text-weight-bold">Upload </p>
+            <p>Connect your Shopify to your TinyStore account. We have created a <a href="/sign-up">detailed instructions</a> on how to do it.</p>
+          </div>
+          <div class="column">
+            <h4 class="is-size-3 has-text-weight-bold">3</h4>
+            <p class="mb-3 has-text-weight-bold">Add products and start selling</p>
+            <p>Add products on your Shopify. Your products will show up on your TinyStore online store. Checkout is via Shopify.</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+<script>
+  new Typewriter('#typewriter', {
+    strings: ['typewriter', 'Effect', 'typewriter.js', 'example'],
+    autoStart: true,
+    loop: true,
+  });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true
+  });
+</script>
+</body>
+
+</html>
